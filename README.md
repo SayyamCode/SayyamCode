@@ -1,15 +1,15 @@
 <h1 align="center">Hi 👋, I'm Sayyam Shafique</h1>
 <h3 align="center">Full Stack Laravel Developer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sayyamcode&label=Profile%20views&color=0e75b6&style=flat" alt="sayyamcode" /> </p>
+<p align="left"> <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="sayyamcode" /> </p>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://cdn.dribbble.com/users/5690231/screenshots/16191500/media/4fbd0ec22f13a3521bb37cc5fe8b1cb3.gif" alt="" /></a> </p>
+<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
 - 🔭 I’m currently working on **Ledger System**
 
 - 🌱 I’m currently learning **MERN Stack**
 
-- 👨‍💻 All of my projects are available at [sayyamcode.vercel.app](sayyamcode.vercel.app)
+- 👨‍💻 All of my projects are available at [https://sayyamcode.vercel.app/](https://sayyamcode.vercel.app/)
 
 - 💬 Ask me about **MERN , Laravel , MySQL**
 
