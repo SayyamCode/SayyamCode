@@ -2,24 +2,22 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function downloadPDF() {
-  const pdfURL = process.env.PUBLIC_URL + '/Sayyam_Shafique_CV.pdf'; // Relative path to the PDF file
-  const link = document.createElement('a');
+  const pdfURL = process.env.PUBLIC_URL + "/SayyamU-Resume.pdf"; // Relative path to the PDF file
+  const link = document.createElement("a");
   link.href = pdfURL;
-  link.download = 'Sayyam_Shafique_CV.pdf'; // File ka naam jo download hoga
+  link.download = "SayyamU-Resume.pdf"; // File ka naam jo download hoga
   link.click();
 }
 
 function Home() {
-
   return (
-
     <>
       <section className="main-hero-area pt-150 pb-80 rel z-1">
         <div className="container container-1620">
           <div className="row align-items-center">
             <div className="col-lg-4 col-sm-7">
               <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
-                <span className="h2">Hello, i’m </span> 
+                <span className="h2">Hello, i’m </span>
                 <h1>
                   <b>Sayyam. </b> Web Developer
                 </h1>
@@ -35,7 +33,6 @@ function Home() {
                   <a onClick={downloadPDF} className="read-more">
                     Download Resume <i className="far fa-angle-right"></i>
                   </a>
-
                 </div>
               </div>
             </div>
@@ -47,7 +44,7 @@ function Home() {
                     data-speed="3000"
                     data-stop="2"
                   >
-                    2
+                    3
                   </span>
                   <span className="counter-title">Years Of Experience</span>
                 </div>
@@ -171,18 +168,18 @@ function Home() {
                     <div className="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                       <div className="skill-item wow fadeInUp delay-0-2s">
                         <img src="assets/images/skills/php.svg" alt="Skill" />
-                        <h5>PHP</h5>
-                        <span className="percent">74%</span>
+                        <h5>Core PHP</h5>
+                        <span className="percent">70%</span>
                       </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                       <div className="skill-item wow fadeInUp delay-0-3s">
                         <img
-                          src="assets/images/skills/skill4.png"
+                          src="assets/images/skills/laravel.png"
                           alt="Skill"
                         />
-                        <h5>Wordpress</h5>
-                        <span className="percent">80%</span>
+                        <h5>Laravel</h5>
+                        <span className="percent">74%</span>
                       </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
@@ -324,12 +321,19 @@ function Home() {
               <div className="project-content wow fadeInRight delay-0-2s">
                 <span className="sub-title">Web App</span>
                 <h2>
-                  <a href="https://techmetixsolutions.com.au/" target="blank">Techmetix Solution</a>
+                  <a href="https://techmetixsolutions.com.au/" target="blank">
+                    Techmetix Solution
+                  </a>
                 </h2>
                 <p>
-                  Tech Solution Web App Where User Can Easily Find Top Rated Developers according to their needs
+                  Tech Solution Web App Where User Can Easily Find Top Rated
+                  Developers according to their needs
                 </p>
-                <a href="https://techmetixsolutions.com.au/" target="blank" className="details-btn">
+                <a
+                  href="https://techmetixsolutions.com.au/"
+                  target="blank"
+                  className="details-btn"
+                >
                   <i className="far fa-arrow-right"></i>
                 </a>
               </div>
@@ -345,12 +349,19 @@ function Home() {
               <div className="project-content wow fadeInRight delay-0-2s">
                 <span className="sub-title">Ecommerce Web App</span>
                 <h2>
-                  <a href="https://kbargains.com.au/" target="blank">Multipurpose Ecommerce Website</a>
+                  <a href="https://kbargains.com.au/" target="blank">
+                    Multipurpose Ecommerce Website
+                  </a>
                 </h2>
                 <p>
-                  Kbargains is the Multipurpose Ecommerce Website With Proper Paypal payment Gateway service
+                  Kbargains is the Multipurpose Ecommerce Website With Proper
+                  Paypal payment Gateway service
                 </p>
-                <a href="https://kbargains.com.au/" target="blank" className="details-btn">
+                <a
+                  href="https://kbargains.com.au/"
+                  target="blank"
+                  className="details-btn"
+                >
                   <i className="far fa-arrow-right"></i>
                 </a>
               </div>
@@ -366,22 +377,27 @@ function Home() {
               <div className="project-content wow fadeInRight delay-0-2s">
                 <span className="sub-title">Blogging Website</span>
                 <h2>
-                  <a href="https://www.onworld.live/"  target="blank">
+                  <a href="https://www.onworld.live/" target="blank">
                     Onworld Live Blogging
                   </a>
                 </h2>
                 <p>
-                  Blogging website which provide daily world affairs and news with proper documentation and authentication.
+                  Blogging website which provide daily world affairs and news
+                  with proper documentation and authentication.
                 </p>
-                <a href="https://www.onworld.live/" target="blank" className="details-btn">
+                <a
+                  href="https://www.onworld.live/"
+                  target="blank"
+                  className="details-btn"
+                >
                   <i className="far fa-arrow-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          
+
           <div className="project-btn text-center wow fadeInUp delay-0-2s">
-            <Link to='/projects'  className="theme-btn">
+            <Link to="/projects" className="theme-btn">
               View More Projects <i className="far fa-angle-right"></i>
             </Link>
           </div>
@@ -395,9 +411,6 @@ function Home() {
           <span></span>
         </div>
       </section>
-
-      
-     
     </>
   );
 }

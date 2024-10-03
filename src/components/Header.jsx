@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function downloadPDF() {
-  const pdfURL = process.env.PUBLIC_URL + '/Sayyam-Shafique-CV.pdf'; // Relative path to the PDF file
+  const pdfURL = process.env.PUBLIC_URL + '/SayyamU-Resume.pdf'; // Relative path to the PDF file
   const link = document.createElement('a');
   link.href = pdfURL;
-  link.download = 'Sayyam-Shafique-CV.pdf'; // File ka naam jo download hoga
+  link.download = 'SayyamU-Resume.pdf'; // File ka naam jo download hoga
   link.click();
 }
 
