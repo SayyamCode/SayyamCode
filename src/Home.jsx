@@ -42,7 +42,7 @@ function Home() {
                   <span
                     className="count-text plus"
                     data-speed="3000"
-                    data-stop="2"
+                    data-stop="3"
                   >
                     3
                   </span>
