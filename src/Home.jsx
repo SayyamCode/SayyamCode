@@ -237,7 +237,7 @@ function Home() {
                         <i className="far fa-arrow-right"></i>
                       </div>
                       <div className="content">
-                        <span className="years">2023 - October</span>
+                        <span className="years">2023 - Present</span>
                         <h4>Senior Web Developer</h4>
                         <span className="company">NGS Technologies</span>
                       </div>
@@ -314,23 +314,24 @@ function Home() {
           <div className="row align-items-center pb-25">
             <div className="col-lg-6">
               <div className="project-image wow fadeInLeft delay-0-2s">
-                <img src="assets/images/projects/techmetix.png" alt="Project" />
+                <img src="assets/images/projects/project.png" alt="Project" />
               </div>
             </div>
             <div className="col-xl-5 col-lg-6">
               <div className="project-content wow fadeInRight delay-0-2s">
                 <span className="sub-title">Web App</span>
                 <h2>
-                  <a href="https://techmetixsolutions.com.au/" target="blank">
-                    Techmetix Solution
+                  <a href="https://project.zakaullahcheema.com/" target="blank">
+                    Ledger System
                   </a>
                 </h2>
                 <p>
-                  Tech Solution Web App Where User Can Easily Find Top Rated
-                  Developers according to their needs
+                  This project as a full-stack application using Laravel. It
+                  includes customer credit and debit functionality, an inventory
+                  system, ledger reports, and suppliers.
                 </p>
                 <a
-                  href="https://techmetixsolutions.com.au/"
+                  href="https://project.zakaullahcheema.com/"
                   target="blank"
                   className="details-btn"
                 >
@@ -342,23 +343,23 @@ function Home() {
           <div className="row align-items-center pb-25">
             <div className="col-lg-6 order-lg-2">
               <div className="project-image wow fadeInLeft delay-0-2s">
-                <img src="assets/images/projects/kbargains.png" alt="Project" />
+                <img src="assets/images/projects/riyasat.png" alt="Project" />
               </div>
             </div>
             <div className="col-xl-5 col-lg-6 ms-auto">
               <div className="project-content wow fadeInRight delay-0-2s">
                 <span className="sub-title">Ecommerce Web App</span>
                 <h2>
-                  <a href="https://kbargains.com.au/" target="blank">
+                  <a href="https://demo.umairelectronics.shop/" target="blank">
                     Multipurpose Ecommerce Website
                   </a>
                 </h2>
                 <p>
-                  Kbargains is the Multipurpose Ecommerce Website With Proper
-                  Paypal payment Gateway service
+                  This is the Multipurpose Ecommerce Website With Proper Paypal
+                  payment Gateway service
                 </p>
                 <a
-                  href="https://kbargains.com.au/"
+                  href="https://demo.umairelectronics.shop/"
                   target="blank"
                   className="details-btn"
                 >
@@ -377,7 +378,7 @@ function Home() {
               <div className="project-content wow fadeInRight delay-0-2s">
                 <span className="sub-title">Blogging Website</span>
                 <h2>
-                  <a href="https://www.onworld.live/" target="blank">
+                  <a href="https://blog.umairelectronics.shop/" target="blank">
                     Onworld Live Blogging
                   </a>
                 </h2>
@@ -386,7 +387,7 @@ function Home() {
                   with proper documentation and authentication.
                 </p>
                 <a
-                  href="https://www.onworld.live/"
+                  href="https://blog.umairelectronics.shop/"
                   target="blank"
                   className="details-btn"
                 >

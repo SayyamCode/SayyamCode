@@ -33,6 +33,32 @@ function Projects() {
       {/* projects grid */}
       <div className="container">
         <div className="row">
+
+
+          {/* *** */}
+          <div className="col-lg-6 item design marketing graphics">
+            <div className="project-item style-two wow fadeInUp delay-0-4s">
+              <div className="project-image">
+                <img src="assets/images/projects/project.png" alt="Project" />
+                <a
+                  href="https://project.zakaullahcheema.com/"
+                  target="blank"
+                  className="details-btn"
+                >
+                  <i className="far fa-arrow-right"></i>
+                </a>
+              </div>
+              <div className="project-content">
+                <span className="sub-title">Web App</span>
+                <h3>
+                  <a href="https://project.zakaullahcheema.com/" target="blank">
+                    Ledger System
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </div>
+
           {/* *** */}
           <div className="col-lg-6 item design marketing graphics">
             <div className="project-item style-two wow fadeInUp delay-0-4s">
@@ -63,7 +89,7 @@ function Projects() {
               <div className="project-image">
                 <img src="assets/images/projects/onworld.png" alt="Project" />
                 <a
-                  href="https://onworld.live/"
+                  href="https://blog.umairelectronics.shop/"
                   target="blank"
                   className="details-btn"
                 >
@@ -73,7 +99,7 @@ function Projects() {
               <div className="project-content">
                 <span className="sub-title">Web App</span>
                 <h3>
-                  <a href="https://onworld.live/" target="blank">
+                  <a href="https://blog.umairelectronics.shop/" target="blank">
                     Blogging Website
                   </a>
                 </h3>
@@ -111,7 +137,7 @@ function Projects() {
               <div className="project-image">
                 <img src="assets/images/projects/riyasat.png" alt="Project" />
                 <a
-                  href="https://bifoliolate-sirens.000webhostapp.com/"
+                  href="https://demo.umairelectronics.shop/"
                   target="blank"
                   className="details-btn"
                 >
@@ -122,10 +148,10 @@ function Projects() {
                 <span className="sub-title">Web App</span>
                 <h3>
                   <a
-                    href="https://bifoliolate-sirens.000webhostapp.com/"
+                    href="https://demo.umairelectronics.shop/"
                     target="blank"
                   >
-                    Riyasat Dastkari Website
+                    Ecommerce Website
                   </a>
                 </h3>
               </div>
